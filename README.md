@@ -1,4 +1,4 @@
-# docker01
+# docker02
 Aula 01
 https://github.com/mariovpirani/docker01
 
@@ -9,7 +9,7 @@ https://github.com/mariovpirani/docker01
 docker run -d -v $(pwd)/Documentos/IMPACTA/docker/services/db/data:/var/lib/mysql --rm --name mysql-container mysql-image<br /><br />
 ### Abrindo a porta para acesso<br />
 docker run -d -v $(pwd)/Documentos/IMPACTA/docker/services/db/data:/var/lib/mysql -p 3306:3306 --rm --name mysql-container mysql-image<br /><br />
-
+<hr>
 
 ### WINDOWS<br />
 ##### Onde está o D:/estudos/faculdade/docker/docker02 trocar por seu caminho<br />
